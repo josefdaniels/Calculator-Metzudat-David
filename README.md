@@ -24,6 +24,7 @@
 
 ## Technologies Used
 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
 - os module
 - ANSI escape codes for colors and formatting
 
