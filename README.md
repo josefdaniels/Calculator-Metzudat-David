@@ -3,9 +3,7 @@
 **A simple command-line calculator**
 
 > "David Ben-Gurion, 13/12/1949"  
-> **ירושלים של זהב** — Jerusalem of Gold
-![Calculadora Metzudat David](Pictures/Screenshot/Screenshot_20260704-191834.jpg!)
-
+> **ירושלים של זהב** — Jerusalem of Gold 
 ---
 
 ## Features
