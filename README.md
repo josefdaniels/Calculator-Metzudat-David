@@ -1,39 +1,41 @@
 # 🇮🇱 Metzudat David Calculator 🇮🇱
 
-**A simple command-line calculator**
+**A simple command-line calculator** with Israeli historical and cultural inspiration.
 
 > "David Ben-Gurion, 13/12/1949"  
-> **ירושלים של זהב** — Jerusalem of Gold 
+> **ירושלים של זהב** — Jerusalem of Gold
+
 ---
 
-## Features
+## 📋 Description
 
-- **Basic arithmetic operations**:
+**Metzudat David** is a lightweight Python calculator designed for basic arithmetic operations. The program features a clean terminal interface with Israeli symbolism and honors David Ben-Gurion, the first Prime Minister of Israel.
+
+## ✨ Features
+
+- **Basic Operations**:
   - Addition
   - Subtraction
   - Multiplication
-  - Division (with zero-division protection)
-  - Exponentiation
-  - Square Root (with negative number protection)
+- Clean and intuitive menu interface
+- Automatic screen clearing between operations
+- Input validation with error handling
+- Cross-platform (Windows, Linux, macOS)
 
-- Beautiful themed interface with ANSI colors
-- Screen clearing between operations
-- Hebrew and Israeli symbolism
-- User-friendly input validation
+## 🛠️ Technologies Used
 
-## Technologies Used
+- **Python 3**
+- `os` module (for clearing the terminal)
+- Built-in input/output handling
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
-
-- os module
-
-- ANSI escape codes for colors and formatting
-
-## How to Run
-
-1. Make sure you have **Python 3** installed.
-2. Save the code in a file named `calculator.py` (or any name you prefer).
-3. Run the program:
-
+## 🚀 How to Run
+Make sure you have Python 3 installed on your computer.
+Clone the repository:
 ```bash
 git clone https://github.com/josefdaniels/Calculator-Metzudat-David.git
+```
+Navigate to the project directory:
+cd Calculator-Metzudat-David
+Run the script:
+python MetzudatDavid.py
+
