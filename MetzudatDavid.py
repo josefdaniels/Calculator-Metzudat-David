@@ -11,6 +11,7 @@ def menu_home():
     print(" 1 -> Addition")
     print(" 2 -> Subtraction")
     print(" 3 -> Multiplication")
+	print(" 4 -> Division")
     print(" 0 -> Leave")
     
     return input("\n Enter the transaction number: ")
@@ -32,6 +33,9 @@ def subtraction(number1, number2):
 def multiplication(number1, number2):
 	result = number1 * number2
 	print(f"\n {number1} × {number2} = {result}")
+def division(number1, number2):
+	result = number1 / number2
+	print(f"\n {number1} ÷ {number2} = {result}")
 	
 while True:
 	try:
@@ -41,7 +45,7 @@ while True:
 		if option == "0":
 			break
 			
-		if option in ["1", "2", "3"]:
+		if option in ["1", "2", "3", "4"]:
 		      	try:
 		      		number1, number2 = read_number()
 		      	except ValueError:
@@ -60,6 +64,9 @@ while True:
 		
 		elif option == "3":
 			multiplication(number1, number2)
+			
+		elif option == "4":
+			division(number1, number2)
 		
 		input('\n Press Space to continue')
 		clear_screen()
