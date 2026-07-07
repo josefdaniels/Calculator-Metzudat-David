@@ -35,7 +35,10 @@ Clone the repository:
 git clone https://github.com/josefdaniels/Calculator-Metzudat-David.git
 ```
 Navigate to the project directory:
+
 cd Calculator-Metzudat-David
+
 Run the script:
+
 python MetzudatDavid.py
 
