@@ -1,8 +1,8 @@
-Calculator-Metzudat-David
+# Calculator-Metzudat-David
 
 Simple calculator developed in Python for basic arithmetic operations through a command-line interface (CLI).
 
-Features
+# Features
 
 - Addition
 - Subtraction
@@ -12,14 +12,14 @@ Features
 - Screen clearing for Windows and Linux/macOS
 - Input validation for numeric values
 
-Project Structure
+# Project Structure
 
 Calculator-Metzudat-David/
 │
 ├── MetzudatDavid.py
 └── README.md
 
-Requirements
+# Requirements
 
 - Python 3.x
 
@@ -41,11 +41,11 @@ python MetzudatDavid.py
 
 Menu
 
-1 -> Addition
-2 -> Subtraction
-3 -> Multiplication
-4 -> Division
-0 -> Leave
+- 1 -> Addition
+- 2 -> Subtraction
+- 3 -> Multiplication
+- 4 -> Division
+- 0 -> Leave
 
 After selecting an operation, the program requests two numeric values and displays the result.
 
