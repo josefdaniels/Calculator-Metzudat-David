@@ -15,11 +15,11 @@ Simple calculator developed in Python for basic arithmetic operations through a 
 # Project Structure
 
 Calculator-Metzudat-David/
+
 │
+├── MetzudatDavid.py
 
-   ├── MetzudatDavid.py
-
-   └── README.md
+└── README.md
 
 # Requirements
 
