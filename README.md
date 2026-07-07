@@ -17,6 +17,7 @@
   - Addition
   - Subtraction
   - Multiplication
+  - Division
 - Clean and intuitive menu interface
 - Automatic screen clearing between operations
 - Input validation with error handling
