@@ -13,14 +13,12 @@ Simple calculator developed in Python for basic arithmetic operations through a 
 - Input validation for numeric values
 
 # Project Structure
-
+```
 Calculator-Metzudat-David/
-
 │
 ├── MetzudatDavid.py
-
 └── README.md
-
+```
 # Requirements
 
 - Python 3.x
@@ -42,7 +40,7 @@ Run the application:
 python MetzudatDavid.py
 
 Menu
-
+```
 - 1 -> Addition
  
 - 2 -> Subtraction
@@ -52,7 +50,7 @@ Menu
 - 4 -> Division
  
 - 0 -> Leave
-
+```
 After selecting an operation, the program requests two numeric values and displays the result.
 
 Source Code
