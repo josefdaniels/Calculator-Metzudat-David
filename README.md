@@ -42,9 +42,13 @@ python MetzudatDavid.py
 Menu
 
 - 1 -> Addition
+ 
 - 2 -> Subtraction
+ 
 - 3 -> Multiplication
+ 
 - 4 -> Division
+ 
 - 0 -> Leave
 
 After selecting an operation, the program requests two numeric values and displays the result.
