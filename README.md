@@ -16,7 +16,9 @@ Simple calculator developed in Python for basic arithmetic operations through a 
 
 Calculator-Metzudat-David/
 │
+
 ├── MetzudatDavid.py
+
 └── README.md
 
 # Requirements
