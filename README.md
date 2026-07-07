@@ -1,44 +1,79 @@
-# 🇮🇱 Metzudat David Calculator 🇮🇱
+Calculator-Metzudat-David
 
-**A simple command-line calculator** with Israeli historical and cultural inspiration.
+Simple calculator developed in Python for basic arithmetic operations through a command-line interface (CLI).
 
-> "David Ben-Gurion, 13/12/1949"  
-> **ירושלים של זהב** — Jerusalem of Gold
+Features
 
----
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Interactive terminal menu
+- Screen clearing for Windows and Linux/macOS
+- Input validation for numeric values
 
-## 📋 Description
+Project Structure
 
-**Metzudat David** is a lightweight Python calculator designed for basic arithmetic operations. The program features a clean terminal interface with Israeli symbolism and honors David Ben-Gurion, the first Prime Minister of Israel.
+Calculator-Metzudat-David/
+│
+├── MetzudatDavid.py
+└── README.md
 
-## ✨ Features
+Requirements
 
-- **Basic Operations**:
-  - Addition
-  - Subtraction
-  - Multiplication
-  - Division
-- Clean and intuitive menu interface
-- Automatic screen clearing between operations
-- Input validation with error handling
-- Cross-platform (Windows, Linux, macOS)
+- Python 3.x
 
-## 🛠️ Technologies Used
+No external libraries are required.
 
-- **Python 3**
-- `os` module (for clearing the terminal)
-- Built-in input/output handling
+Running the Project
 
-## 🚀 How to Run
-Make sure you have Python 3 installed on your computer.
 Clone the repository:
-```bash
+
 git clone https://github.com/josefdaniels/Calculator-Metzudat-David.git
-```
-Navigate to the project directory:
+
+Enter the project directory:
 
 cd Calculator-Metzudat-David
 
-Run the script:
+Run the application:
 
 python MetzudatDavid.py
+
+Menu
+
+1 -> Addition
+2 -> Subtraction
+3 -> Multiplication
+4 -> Division
+0 -> Leave
+
+After selecting an operation, the program requests two numeric values and displays the result.
+
+Source Code
+
+Main file:
+
+- "MetzudatDavid.py"
+
+Main functions:
+
+- "clear_screen()" - Clears the terminal screen.
+- "menu_home()" - Displays the main menu.
+- "read_number()" - Reads two numeric values from the user.
+- "addition()" - Performs addition.
+- "subtraction()" - Performs subtraction.
+- "multiplication()" - Performs multiplication.
+- "division()" - Performs division.
+
+Error Handling
+
+The application includes basic exception handling for:
+
+- Invalid numeric input ("ValueError")
+- Invalid menu selections
+
+Technologies
+
+- Python 3
+- Standard Library ("os")
+
