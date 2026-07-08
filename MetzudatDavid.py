@@ -19,9 +19,14 @@ def menu_home():
 
 
 def read_number():
- 	number1 = float(int(input("\n Enter the first number: ")))
- 	number2 = float(int(input(" Enter the second number: ")))
- 	return number1, number2
+ 	while True:
+ 		try:
+ 			number1 = float(input("\n Enter the first number: "))
+ 			number2 = float(input(" Enter the second number: "))
+ 			return number1, number2
+ 		except ValueError:
+ 			print("\n Enter only valid numbers")
+ 			
  
 	
 def addition(number1, number2):
@@ -38,7 +43,6 @@ def division(number1, number2):
 	print(f"\n {number1} ÷ {number2} = {result}")
 	
 while True:
-	try:
 		
 		option = menu_home()
 		
@@ -55,23 +59,21 @@ while True:
 		
 		
 		
-		
-		if option == "1":
-			addition(number1, number2)
+		try:
+			if option == "1":
+				addition(number1, number2)
 			
-		elif option == "2":
-			subtraction(number1, number2)
-		
-		elif option == "3":
-			multiplication(number1, number2)
+			elif option == "2":
+				subtraction(number1, number2)
 			
-		elif option == "4":
-			division(number1, number2)
-		
+			elif option == "3":
+				multiplication(number1, number2)
+			
+			elif option == "4":
+				division(number1, number2)
+			
+		except ZeroDivisionError:
+			print("\n Division by zero is not possible")
+			
 		input('\n Press Space to continue')
-		clear_screen()
-		
-	except ValueError:
-		print("\n Invalid! Enter valid numbers only")
-		input("\n Press Space to continue")
 		clear_screen()
