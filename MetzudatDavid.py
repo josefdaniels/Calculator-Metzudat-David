@@ -74,4 +74,4 @@ while True:
 	except ValueError:
 		print("\n Invalid! Enter valid numbers only")
 		input("\n Press Space to continue")
-		clear_screen(
+		clear_screen()
