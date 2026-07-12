@@ -1,8 +1,8 @@
-# Calculator-Metzudat-David
+# Calculator - Metzudat David
 
 Simple calculator developed in Python for basic arithmetic operations through a command-line interface (CLI).
 
-# Features
+## Features
 
 - Addition
 - Subtraction
@@ -12,72 +12,70 @@ Simple calculator developed in Python for basic arithmetic operations through a 
 - Screen clearing for Windows and Linux/macOS
 - Input validation for numeric values
 
-# Project Structure
-```
+## Project Structure
+
+```text
 Calculator-Metzudat-David/
-│
 ├── MetzudatDavid.py
 └── README.md
 ```
-# Requirements
+
+## Requirements
 
 - Python 3.x
 
 No external libraries are required.
 
-Running the Project
+## Installation
 
-Clone the repository:
-
+```bash
 git clone https://github.com/josefdaniels/Calculator-Metzudat-David.git
-
-Enter the project directory:
-
 cd Calculator-Metzudat-David
+```
 
-Run the application:
+## Running the Project
 
+```bash
 python MetzudatDavid.py
+```
 
-Menu
+## Menu
+
+```text
+1 - Addition
+2 - Subtraction
+3 - Multiplication
+4 - Division
+0 - Exit
 ```
-- 1 -> Addition
- 
-- 2 -> Subtraction
- 
-- 3 -> Multiplication
- 
-- 4 -> Division
- 
-- 0 -> Leave
-```
+
 After selecting an operation, the program requests two numeric values and displays the result.
 
-Source Code
+## Source Code
 
-Main file:
+**Main file**
 
-- "MetzudatDavid.py"
+- `MetzudatDavid.py`
 
-Main functions:
+**Main functions**
 
-- "clear_screen()" - Clears the terminal screen.
-- "menu_home()" - Displays the main menu.
-- "read_number()" - Reads two numeric values from the user.
-- "addition()" - Performs addition.
-- "subtraction()" - Performs subtraction.
-- "multiplication()" - Performs multiplication.
-- "division()" - Performs division.
+- `clear_screen()`
+- `menu_home()`
+- `read_number()`
+- `addition()`
+- `subtraction()`
+- `multiplication()`
+- `division()`
 
-Error Handling
+## Error Handling
 
 The application includes basic exception handling for:
 
-- Invalid numeric input ("ValueError")
+- `ValueError` (invalid numeric input)
 - Invalid menu selections
 
-Technologies
+## Technologies
 
 - Python 3
-- Standard Library ("os")
-
+- Standard Library:
+  - `os`
